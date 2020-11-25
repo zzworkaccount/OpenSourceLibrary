@@ -7,5 +7,5 @@ if __name__ == '__main__':
     suite_tests = unittest.defaultTestLoader.discover\
         (Utility.get_root_path()+"\\cases", pattern="*Test.py")
     BeautifulReport \
-        (suite_tests).report(filename='WoniuTicket测试报告', description='WoniuTicket测试报告',
+        (suite_tests).report(filename='Ticket测试报告', description='Ticket测试报告',
                              report_dir=Utility.get_root_path()+'\\report\\report_info')

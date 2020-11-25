@@ -16,6 +16,7 @@ class Service:
         session.post(url, data)
         return session
 
+
     # 影院后台
     @classmethod
     def get_session_tm(cls):
@@ -26,6 +27,7 @@ class Service:
         session = requests.session()
         res = session.post(url, data)
         return session
+
 
     # app
     @classmethod

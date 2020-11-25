@@ -1,7 +1,8 @@
 #封装不操作软件的工具类
 class Utility:
 
-    PROJECT_NAME = 'WoniuTicket_GUI'
+    PROJECT_NAME = 'Ticket_GUI'
+
 
     # 获取当前文件的绝对路径
     @classmethod
@@ -10,6 +11,7 @@ class Utility:
         file_path = os.path.abspath('')
         return file_path
 
+
     #读取json文件
     @classmethod
     def get_json(cls,path):
@@ -17,6 +19,7 @@ class Utility:
         with open(path,encoding="utf-8") as op:
             contents = json.load(op)
         return contents
+
 
     # 读取yaml文件
     @classmethod
@@ -28,11 +31,13 @@ class Utility:
             contents = yaml.load(op)
         return contents
 
+
     # 传入元素json文件路径，从json文件中读取元素信息，返回列表套字典
     @classmethod
     def get_ele_json(self , ele_path):
         ele_dict = Utility.get_json(ele_path)
         return ele_dict
+
 
     # 传入元素字典，处理成元素定位方式列表，和元素值列表
     @classmethod
@@ -50,6 +55,7 @@ class Utility:
         sun_ele.append(ele_method_list)
         sun_ele.append(ele_path_list)
         return sun_ele
+
 
     # 从Excel表格中获取数据
     @classmethod
@@ -72,23 +78,6 @@ class Utility:
             test_info.append(tuple(list))
         return test_info
 
-    # 从Excel表格中获取数据
-    @classmethod
-    def get_excel_sss(cls, conf):
-        import xlrd
-        test_info = []
-        workbook = xlrd.open_workbook(cls.get_root_path() + "\\data\\Save_TestData\\" + conf['EXCELNAME'])
-        contents = workbook.sheet_by_name(conf['SHEETNAME'])
-        for i in range(conf['START_ROW'], conf['END_ROW']):
-            test_data = contents.cell(i, conf['TESTDATA_COL']).value
-            expect = contents.cell(i, conf['EXPECT_COL']).value
-            temp = test_data.split('\n')
-            list = []
-            for j in temp:
-                list.append(j.split('=')[1])
-            list.append(expect)
-            test_info.append((tuple(list),))
-        return test_info
 
     # 创建数据库连接
     @classmethod
@@ -114,6 +103,7 @@ class Utility:
             conn.close()
         return result
 
+
     # 查询多条记录
     @classmethod
     def query_all(cls, sql):
@@ -130,9 +120,18 @@ class Utility:
         return result
 
 
+    # 获取项目根路径
     @classmethod
     def get_root_path(self):
         import os
         current_path = os.path.abspath(__file__)
         root_path = current_path[:current_path.index(self.PROJECT_NAME)+len(self.PROJECT_NAME)]
         return root_path
+
+
+    # 重置数据库
+    @classmethod
+    def initialize_DB(cls):
+        path = cls.get_root_path()+'\wts.sql'
+        import os
+        os.system(f"mysql -h192.172.4.60 -u root -p123456 --default-character-set=utf8 wts <{path}")

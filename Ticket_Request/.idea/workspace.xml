@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ddd7676d-13ae-4bba-8cef-6610fe6278ef" name="Default Changelist" comment="" />
+    <list default="true" id="ddd7676d-13ae-4bba-8cef-6610fe6278ef" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Ticket_GUI/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ticket_GUI/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Ticket_GUI/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ticket_GUI/data/Get_TestData/Get_C1_LMT_Data.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ticket_GUI/data/Save_TestData/C1_ListManage_info.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ticket_GUI/start.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Ticket_GUI/start.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ticket_GUI/tools/service.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Ticket_GUI/tools/service.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ticket_GUI/tools/util.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Ticket_GUI/tools/util.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/start.py" beforeDir="false" afterPath="$PROJECT_DIR$/start.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/service.py" beforeDir="false" afterPath="$PROJECT_DIR$/tools/service.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/util.py" beforeDir="false" afterPath="$PROJECT_DIR$/tools/util.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,7 +27,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1kH4OrsR2rcqmvVgcLiUwiJFgvv" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -22,7 +39,8 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="D:/PyProject/pyFileDM" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="D:/pyFileDM_New/Application_Test" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -153,10 +171,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="112" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1605853668743" />
-    <state x="463" y="121" key="FileChooserDialogImpl" timestamp="1606292480199">
+    <state x="463" y="121" key="FileChooserDialogImpl" timestamp="1606308400412">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="121" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1606292480199" />
+    <state x="463" y="121" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1606308400412" />
     <state width="1344" height="2" key="GridCell.Tab.0.bottom" timestamp="1606202994994">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

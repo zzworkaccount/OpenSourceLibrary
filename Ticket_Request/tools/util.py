@@ -12,11 +12,14 @@ class Utility:
             contents = json.load(op)
         return contents
 
+
+    # 获取公共项目路径
     @classmethod
     def get_url_head(cls , uri , row=0):
         url_path = Utility.get_json(Utility.get_root_path() + "\\conf\\Base_conf\\base.conf")[row]
         url = url_path["PROTOCOL"] + "://" + url_path["IP"] + ":" + url_path["PORT"] + uri
         return url
+
 
     # 从Excel表格中获取数据
     @classmethod
@@ -54,6 +57,7 @@ class Utility:
                                contents[0]['DBUSER'], contents[0]['DBPASS'],
                                contents[0]['DBNAME'], charset='utf8')
 
+
     # 查询一条记录
     @classmethod
     def query_one(cls, sql):
@@ -68,6 +72,7 @@ class Utility:
             cur.close()
             conn.close()
         return result
+
 
     # 查询多条记录
     @classmethod
@@ -84,6 +89,8 @@ class Utility:
             conn.close()
         return result
 
+
+    # 获取项目跟路径
     @classmethod
     def get_root_path(self):
         import os
@@ -91,11 +98,14 @@ class Utility:
         root_path = current_path[:current_path.index(self.PROJECT_NAME)+len(self.PROJECT_NAME)]
         return root_path
 
+
+    # 重置数据库
     @classmethod
     def initialize_DB(cls):
-        path = 'D:\pyFileDM_New\WoniuTicket_GUI\wts.sql'
+        path = cls.get_root_path()+'\wts.sql'
         import os
         os.system(f"mysql -h192.172.4.60 -u root -p123456 --default-character-set=utf8 wts <{path}")
+
 
     # 获取当前系统时间
     @classmethod
@@ -104,6 +114,8 @@ class Utility:
         ctime = time.strftime('%Y-%m-%d_%H-%M-%S', time.localtime())
         return ctime
 
+
+    # 自定义日志
     @classmethod
     def logger(cls , casesname , centent , restul , expect):
         import time
@@ -115,9 +127,3 @@ class Utility:
         sys.stdout = temp
         print("INFO   " + ctime + f" [{casesname}-->{centent}] 实际：{restul}：预期：{expect}")
 
-
-
-if __name__ == '__main__':
-
-    login_info = Utility.get_json(Utility.get_root_path() + '\\conf\\Excel_conf\\A_LT.conf')[0]
-    print(Utility.get_excel(login_info))

@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6da780e9-d0f4-4ca9-8da0-7c8e0101f5b4" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1i5NHKmnkzTNpyxhRCHCDefTLAR" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\pyFileDM_New\Application_Test\bin" />
+      <recent name="D:\pyFileDM_New\WoniuBoss_two_GUI\data" />
+      <recent name="D:\pyFileDM_New\WoniuBoss_two_GUI\cases\ResourceManagement_Test\Train_Test" />
+      <recent name="D:\pyFileDM_New\WoniuBoss_two_GUI\lib\ResourceManagement\Train" />
+      <recent name="D:\pyFileDM_New\WoniuBoss_two_GUI\cases\StudentManagement_Test\StudentInfo_Test" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\pyFileDM_New\Application_Test\conf" />
+      <recent name="D:\pyFileDM_New\WoniuBoss_two_GUI\conf" />
+      <recent name="D:\pyFileDM_New\WoniuBoss_two_GUI\data" />
+      <recent name="D:\pyFileDM_New\WoniuBoss_two_GUI\bin\start" />
+      <recent name="D:\pyFileDM_New\WoniuBoss4.0_GUI\conf" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.start (1)">
+    <configuration name="start (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="WoniuBoss3.5_GUI" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/bin" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bin/start.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="start" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="WoniuBoss3.5_GUI" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/bin/start" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="D:\pyFileDM_New\Application_Test\bin\start.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests in Income_Test.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="WoniuBoss3.5_GUI" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/cases/YBJZ_Test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/cases/YBJZ_Test/Income_Test.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests in Login_Test.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="WoniuBoss3.5_GUI" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/cases/YBJZ_Test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/cases/YBJZ_Test/Login_Test.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests in Pay_Test.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="WoniuBoss3.5_GUI" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/cases/YBJZ_Test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/cases/YBJZ_Test/Pay_Test.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.start (1)" />
+        <item itemvalue="Python tests.Unittests in Login_Test.py" />
+        <item itemvalue="Python tests.Unittests in Income_Test.py" />
+        <item itemvalue="Python tests.Unittests in Pay_Test.py" />
+        <item itemvalue="Python.start" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6da780e9-d0f4-4ca9-8da0-7c8e0101f5b4" name="Default Changelist" comment="" />
+      <created>1601193403563</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1601193403563</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="409" y="171" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1601369954741">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="409" y="171" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1601369954741" />
+    <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1603443340864">
+      <screen x="0" y="0" width="1366" height="720" />
+    </state>
+    <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.720@0.0.1366.720" timestamp="1603443340864" />
+    <state x="413" y="112" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1601352896457" />
+    <state x="463" y="121" key="FileChooserDialogImpl" timestamp="1603775836095">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="121" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1603775836095" />
+    <state width="1366" height="27" key="GridCell.Tab.0.bottom" timestamp="1603447913256">
+      <screen x="0" y="0" width="1366" height="720" />
+    </state>
+    <state width="1366" height="27" key="GridCell.Tab.0.bottom/0.0.1366.720@0.0.1366.720" timestamp="1603447913256" />
+    <state width="1366" height="103" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1601877603115" />
+    <state width="1366" height="27" key="GridCell.Tab.0.center" timestamp="1603447913256">
+      <screen x="0" y="0" width="1366" height="720" />
+    </state>
+    <state width="1366" height="27" key="GridCell.Tab.0.center/0.0.1366.720@0.0.1366.720" timestamp="1603447913256" />
+    <state width="1366" height="103" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1601877603114" />
+    <state width="1366" height="27" key="GridCell.Tab.0.left" timestamp="1603447913256">
+      <screen x="0" y="0" width="1366" height="720" />
+    </state>
+    <state width="1366" height="27" key="GridCell.Tab.0.left/0.0.1366.720@0.0.1366.720" timestamp="1603447913256" />
+    <state width="1366" height="103" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1601877603114" />
+    <state width="1366" height="27" key="GridCell.Tab.0.right" timestamp="1603447913256">
+      <screen x="0" y="0" width="1366" height="720" />
+    </state>
+    <state width="1366" height="27" key="GridCell.Tab.0.right/0.0.1366.720@0.0.1366.720" timestamp="1603447913256" />
+    <state width="1366" height="103" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1601877603114" />
+    <state width="1366" height="226" key="GridCell.Tab.1.bottom" timestamp="1601352031450">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1366" height="223" key="GridCell.Tab.1.bottom/0.0.1366.720@0.0.1366.720" timestamp="1601261488505" />
+    <state width="1366" height="226" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1601352031450" />
+    <state width="1366" height="226" key="GridCell.Tab.1.center" timestamp="1601352031449">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1366" height="223" key="GridCell.Tab.1.center/0.0.1366.720@0.0.1366.720" timestamp="1601261488505" />
+    <state width="1366" height="226" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1601352031449" />
+    <state width="1366" height="226" key="GridCell.Tab.1.left" timestamp="1601352031449">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1366" height="223" key="GridCell.Tab.1.left/0.0.1366.720@0.0.1366.720" timestamp="1601261488505" />
+    <state width="1366" height="226" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1601352031449" />
+    <state width="1366" height="226" key="GridCell.Tab.1.right" timestamp="1601352031450">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1366" height="223" key="GridCell.Tab.1.right/0.0.1366.720@0.0.1366.720" timestamp="1601261488505" />
+    <state width="1366" height="226" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1601352031450" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1601345988154">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1601345988154" />
+  </component>
+</project>

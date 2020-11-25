@@ -8,12 +8,14 @@ from selenium.webdriver.common.by import By
 #封装操作软件的工具类
 class Service:
 
+
     # 获取软件网址,需要传入元素对象和网址配置文件路径
     @classmethod
     def open_page(cls, driver):
         contents = Utility.get_json(Utility.get_root_path()+"\\conf\\Base_conf\\base.conf")[0]
         url = f"{contents['PROTOCOL']}://{contents['IP']}:{contents['PORT']}/{contents['PROGRAM']}"
         driver.get(url)
+
 
     # 获取driver
     @classmethod
@@ -23,6 +25,7 @@ class Service:
         driver = getattr(webdriver, contents['BROWSER'])()
         driver.implicitly_wait(10)
         return driver
+
 
     # 封装点击，清空，输入
     @classmethod
@@ -41,6 +44,7 @@ class Service:
         except NoSuchElementException as e:
             return False
         return True
+
 
     # 切换iframe
     def switch_to_iframe(self , driver , centent_list):
@@ -67,6 +71,7 @@ class Service:
         sys_notice = (By.XPATH, '/html/body/div[4]/div[3]/a')
         WebDriverWait(self.driver, 15, 1).until(EC.presence_of_element_located(sys_notice))
         self.driver.find_element_by_xpath('/html/body/div[4]/div[3]/a').click()
+
 
     # 忽略登录
     @classmethod
