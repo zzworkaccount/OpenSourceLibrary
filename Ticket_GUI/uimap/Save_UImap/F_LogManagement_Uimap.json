@@ -1,0 +1,16 @@
+[
+  {
+    "log_system_header": "xpath=//*[@id=\"navBar\"]/li[4]/a/cite",
+    "system_command_header": "xpath=//*[@id=\"navBar\"]/li[4]/dl/dd[1]/a/cite",
+    "input_info": "xpath=/html/body/div[1]/div[1]/form/input[3]",
+    "search_btn": "xpath=/html/body/div[1]/div[1]/form/button/i",
+    "list_operate": "xpath=/html/body/div[1]/div[2]/div[2]/div[2]/table/tbody/tr/td[4]/div",
+    "list_text": "xpath=/html/body/div[1]/div[2]/div[2]/div[2]/div",
+    "start_time_inp": "xpath=//*[@id=\"startTime\"]",
+    "click_start_time": "xpath=//*[@id=\"layui-laydate1\"]/div[1]/div[2]/table/tbody/tr[1]/td[2]",
+    "start_time":"xpath=//*[@id=\"layui-laydate1\"]/div[2]/div/span[3]",
+    "end_time_inp": "xpath=//*[@id=\"endTime\"]",
+    "click_end_time": "xpath=//*[@id=\"layui-laydate2\"]/div[1]/div[2]/table/tbody/tr[3]/td[4]",
+    "end_time":"xpath=//*[@id=\"layui-laydate2\"]/div[2]/div/span[3]"
+  }
+]

@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ddd7676d-13ae-4bba-8cef-6610fe6278ef" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1kH4OrsR2rcqmvVgcLiUwiJFgvv" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../WoniuTicket_Request" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\pyFileDM_New\WoniuTicket_GUI\data\Save_TestData" />
+      <recent name="D:\pyFileDM_New\WoniuTicket_GUI\SystemBackgroundManagement\uimap\Get_SBM_Element" />
+      <recent name="D:\pyFileDM_New\WoniuTicket_GUI\TheaterBackgroundManagement\lib" />
+      <recent name="D:\pyFileDM_New\WoniuTicket_GUI\TheaterBackgroundManagement" />
+      <recent name="D:\pyFileDM_New\WoniuTicket_GUI\data" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\pyFileDM_New\WoniuTicket_GUI\data\Save_TestData" />
+      <recent name="D:\pyFileDM_New\WoniuTicket_GUI\data\Get_TestData" />
+      <recent name="D:\pyFileDM_New\WoniuTicket_GUI" />
+      <recent name="D:\pyFileDM_New\WoniuTicket_GUI\conf\Excel_conf" />
+      <recent name="D:\pyFileDM_New\WoniuTicket_GUI\conf\base_conf" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.start">
+    <configuration name="C1_ShowList_Action" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="WoniuTicket_GUI" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lib" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lib/C1_ShowList_Action.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Get_C_LM_Element" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="WoniuTicket_GUI" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/uimap/Get_Element" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/uimap/Get_Element/Get_C_LM_Element.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="start" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="WoniuTicket_GUI" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/start.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests in A1_ShowList_Test.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="WoniuTicket_GUI" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/cases" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/cases/A1_ShowList_Test.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests in B1_Login_Test.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="WoniuTicket_GUI" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/cases" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/cases/B1_Login_Test.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.start" />
+        <item itemvalue="Python tests.Unittests in B1_Login_Test.py" />
+        <item itemvalue="Python tests.Unittests in A1_ShowList_Test.py" />
+        <item itemvalue="Python.C1_ShowList_Action" />
+        <item itemvalue="Python.Get_C_LM_Element" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ddd7676d-13ae-4bba-8cef-6610fe6278ef" name="Default Changelist" comment="" />
+      <created>1605344153891</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1605344153891</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="413" y="112" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1605517532203">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="413" y="112" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1605517532203" />
+    <state x="463" y="121" key="FileChooserDialogImpl" timestamp="1605927167692">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="121" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1605927167692" />
+    <state width="1344" height="89" key="GridCell.Tab.0.bottom" timestamp="1605927169322">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1366" height="182" key="GridCell.Tab.0.bottom/0.0.1366.720@0.0.1366.720" timestamp="1605446039178" />
+    <state width="1344" height="89" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1605927169322" />
+    <state width="956" height="235" key="GridCell.Tab.0.bottom/0.0.960.560@0.0.960.560" timestamp="1605870123150" />
+    <state width="1344" height="89" key="GridCell.Tab.0.center" timestamp="1605927169322">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1366" height="182" key="GridCell.Tab.0.center/0.0.1366.720@0.0.1366.720" timestamp="1605446039178" />
+    <state width="1344" height="89" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1605927169322" />
+    <state width="956" height="235" key="GridCell.Tab.0.center/0.0.960.560@0.0.960.560" timestamp="1605870123150" />
+    <state width="1344" height="89" key="GridCell.Tab.0.left" timestamp="1605927169322">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1366" height="182" key="GridCell.Tab.0.left/0.0.1366.720@0.0.1366.720" timestamp="1605446039178" />
+    <state width="1344" height="89" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1605927169322" />
+    <state width="956" height="235" key="GridCell.Tab.0.left/0.0.960.560@0.0.960.560" timestamp="1605870123150" />
+    <state width="1344" height="89" key="GridCell.Tab.0.right" timestamp="1605927169322">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1366" height="182" key="GridCell.Tab.0.right/0.0.1366.720@0.0.1366.720" timestamp="1605446039178" />
+    <state width="1344" height="89" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1605927169322" />
+    <state width="956" height="235" key="GridCell.Tab.0.right/0.0.960.560@0.0.960.560" timestamp="1605870123150" />
+    <state width="1366" height="226" key="GridCell.Tab.1.bottom" timestamp="1605796944969">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1366" height="223" key="GridCell.Tab.1.bottom/0.0.1366.720@0.0.1366.720" timestamp="1605424449110" />
+    <state width="1366" height="226" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1605796944969" />
+    <state width="1366" height="226" key="GridCell.Tab.1.center" timestamp="1605796944969">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1366" height="223" key="GridCell.Tab.1.center/0.0.1366.720@0.0.1366.720" timestamp="1605424449109" />
+    <state width="1366" height="226" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1605796944969" />
+    <state width="1366" height="226" key="GridCell.Tab.1.left" timestamp="1605796944969">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1366" height="223" key="GridCell.Tab.1.left/0.0.1366.720@0.0.1366.720" timestamp="1605424449109" />
+    <state width="1366" height="226" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1605796944969" />
+    <state width="1366" height="226" key="GridCell.Tab.1.right" timestamp="1605796944969">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1366" height="223" key="GridCell.Tab.1.right/0.0.1366.720@0.0.1366.720" timestamp="1605424449110" />
+    <state width="1366" height="226" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1605796944969" />
+    <state x="484" y="54" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1605627698550">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="484" y="54" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1366.728@0.0.1366.728" timestamp="1605627698550" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1605774966213">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1605774966213" />
+  </component>
+</project>

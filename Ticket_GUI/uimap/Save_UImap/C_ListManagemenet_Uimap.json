@@ -1,0 +1,32 @@
+[
+  {
+    "ShowManage": "xpath=//*[@id='navBar']/li[2]/a/cite",
+    "ListManage": "xpath=//*[@id='navBar']/li[2]/dl/dd[1]/a/cite",
+    "ShowList": "xpath=//*[@id='navBar']/li[2]/dl/dd[1]/dl/dd[1]/a/cite",
+    "switch_ShowList": "xpath=//iframe[@src='/showservice/showInfos']",
+    "showdetails_click":"xpath=//*[@id='app']/div[3]/div[@class='item']",
+    "switch_showdetails": "xpath=//iframe[@src='editShow']",
+    "revise_title": "id=title",
+    "revise_showlength": "id=showLength",
+    "summit": "xpath=//*[@id='showFrom']/div[6]/div/button[1]"
+  },
+  {
+    "ShowManage":       "xpath=//*[@id='navBar']/li[2]/a/cite",
+    "ListManage":        "xpath=//*[@id='navBar']/li[2]/dl/dd[1]/a/cite",
+    "AddShow":          "xpath=//*[@id='navBar']/li[2]/dl/dd[1]/dl/dd[2]/a/cite",
+    "switch_AddShow":   "xpath=//iframe[@src='/showservice/addShow']",
+    "ShowList":         "xpath=//*[@id='navBar']/li[2]/dl/dd[1]/dl/dd[1]/a/cite",
+    "switch_ShowList": "xpath=//iframe[@src='/showservice/showInfos']",
+    "LastPage":       "xpath=//*[@id='app']/div[3]/div[7]/table/tbody/tr/td[4]/button",
+    "LP_list":        "xpath=//*[@id='app']/div[3]/div[@class='item']",
+    "Position_title": "xpath=//*[@id='app']/div[3]/div[@class='item'][f{m}]/div[2]/div/span"
+
+  },
+  {
+    "ShowManage": "xpath=//*[@id='navBar']/li[2]/a/cite",
+    "ListManage": "xpath=//*[@id='navBar']/li[2]/dl/dd[1]/a/cite",
+    "PhotoManage":"xpath=//*[@id='navBar']/li[2]/dl/dd[1]/dl/dd[3]/a/cite",
+    "switch_PhotoManage": "xpath=//iframe[@src='/showservice/showImages']"
+  }
+
+]

@@ -1,0 +1,15 @@
+[
+  {
+    "Film_management_header": "xpath=//*[@id=\"navBar\"]/li[1]/a",
+    "Actor_management_body": "xpath=//*[@id=\"navBar\"]/li[1]/dl/dd[5]/a/cite",
+    "add_performer": "xpath=/html/body/div/div[1]/div[2]/table/tbody/tr[1]/td[3]/div/a[2]",
+    "username": "xpath=//*[@id=\"dataFrm\"]/div[1]/div/input",
+    "identity": "xpath=//*[@id=\"dataFrm\"]/div[2]/div/input",
+    "click_add": "xpath=//*[@id=\"dataFrm\"]/div[5]/div/button[1]",
+    "click_edit": "xpath=/html/body/div[1]/div[1]/div[2]/table/tbody/tr[1]/td[3]/div/a[1]",
+    "again_click_edit": "xpath=/html/body/form/div/div[1]/div[2]/table/tbody/tr[1]/td[7]/div/a[1]",
+    "edit_username": "xpath=//*[@id=\"dataFrm\"]/div[1]/div/input",
+    "alter": "xpath=//*[@id=\"dataFrm\"]/div[5]/div/button[1]",
+    "edit_identity": "xpath=//*[@id=\"dataFrm\"]/div[2]/div/input"
+}
+]

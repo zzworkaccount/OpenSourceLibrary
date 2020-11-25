@@ -1,0 +1,32 @@
+[
+  {
+    "userList_header": "xpath=//*[@id=\"navBar\"]/li[6]/a",
+    "userList_body": "xpath=//*[@id=\"navBar\"]/li[6]/dl/dd/a/cite",
+    "add_user": "xpath=/html/body/div[1]/div[2]/div[1]/div[1]/div/button[2]",
+    "add_username": "xpath=/html/body/div/form/div[1]/div/input",
+    "add_phone": "xpath=//html/body/div[1]/form/div[2]/div/input",
+    "add_email": "xpath=/html/body/div[1]/form/div[3]/div/input",
+    "add_sex": "xpath=//*[@id=\"dataFrm\"]/div[4]/div/div[2]/i",
+    "add_province": "xpath=//*[@id=\"area-picker\"]/div[1]/div/div/input",
+    "add_city": "xpath=//*[@id=\"area-picker\"]/div[2]/div/div/input",
+    "add_area": "xpath=//*[@id=\"area-picker\"]/div[3]/div/div/input",
+    "detail_address": "xpath=//*[@id=\"address\"]",
+    "add_password": "xpath=//*[@id=\"dataFrm\"]/div[6]/div/input",
+    "add_balance": "xpath=//*[@id=\"dataFrm\"]/div[7]/div/input",
+    "add_status": "xpath=//*[@id=\"dataFrm\"]/div[8]/div/div/em",
+    "add_approve": "xpath=//*[@id=\"dataFrm\"]/div[9]/div/div/em",
+    "submit": "xpath=//*[@id=\"dataFrm\"]/div[10]/div/button[1]",
+    "reset": "xpath=//*[@id=\"dataFrm\"]/div[10]/div/button[2]",
+    "close": "xpath=/html/body/div[4]/span[1]/a[3]",
+    "list_name": "xpath=/html/body/div[1]/div[2]/div[2]/div[2]/table/tbody/tr/td[3]",
+    "list_phone": "xpath=/html/body/div[1]/div[2]/div[2]/div[2]/table/tbody/tr/td[4]",
+    "checkbox": "xpath=/html/body/div[1]/div[2]/div[2]/div[3]/div[2]/table/tbody/tr[4]/td/div/div/i",
+    "delete_btn": "xpath=/html/body/div/div[2]/div[2]/div[4]/div[2]/table/tbody/tr[4]/td/div/a[2]/i",
+    "alert_accept": "xpath=//*[@id=\"layui-layer1\"]/div[3]/a[1]",
+    "batch_delete": "xpath=/html/body/div[1]/div[2]/div[1]/div[1]/div/button[1]",
+    "checkbox2": "xpath=/html/body/div[1]/div[2]/div[2]/div[3]/div[2]/table/tbody/tr[1]/td/div/div/i",
+    "all": "xpath=/html/body/div[1]/div[2]/div[2]/div[3]/div[1]/table/thead/tr/th/div/div/i",
+    "list_text": "xpath=/html/body/div[1]/div[2]/div[2]/div[2]/div",
+    "switch_to_accept": "xpath=//*[@id=\"layui-layer1\"]/div[3]/a[1]"
+  }
+]

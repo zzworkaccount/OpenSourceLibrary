@@ -1,0 +1,8 @@
+[
+  {
+    "5": "id=username",
+    "6": "id=password",
+    "7": "id=captcha",
+    "8": "xpath=/html/body/div/form/div[5]/button"
+  }
+]

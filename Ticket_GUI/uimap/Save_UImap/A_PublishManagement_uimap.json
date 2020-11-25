@@ -1,0 +1,19 @@
+[
+  {
+    "movie_header": "xpath=//*[@id=\"navBar\"]/li[1]/a",
+    "publish_body": "xpath=//*[@id=\"navBar\"]/li[1]/dl/dd[1]/a/cite",
+    "edit_btn": "xpath=/html/body/div/div[1]/div[2]/table/tbody/tr[1]/td[11]/div/a[1]",
+    "edit_movie_name":"xpath=/html/body/form/div[1]/div/input",
+    "edit_movie_type": "xpath=/html/body/form/div[5]/div/div/div/input",
+    "edit_movie_time": "xpath=/html/body/form/div[3]/div/input",
+    "edit_movie_wd": "xpath=/html/body/form/div[4]/div/input",
+    "edit_movie_language": "xpath=/html/body/form/div[8]/div/input",
+    "submit": "xpath=//*[@id=\"dataFrm\"]/div[12]/div/button[1]",
+    "select_input": "xpath=/html/body/form/blockquote/div[1]/div/div/div/input",
+    "list_movie": "xpath=/html/body/form/blockquote/div[1]/div/div/dl/dd[4]",
+    "select_btn": "xpath=/html/body/form/blockquote/div[1]/a",
+    "movie_list_name": "xpath=/html/body/div[1]/div[1]/div[2]/table/tbody/tr/td[4]/div",
+    "null": "xpath= /html/body/form/blockquote/div[1]/div/div/dl/p",
+    "movie_list_times": "xpath=/html/body/div[1]/div[1]/div[2]/table/tbody/tr/td[8]/div"
+  }
+]

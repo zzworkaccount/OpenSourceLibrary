@@ -1,0 +1,8 @@
+[
+  {
+    "system_management": "xpath=//*[@id=\"navBar\"]/li[6]/a/cite",
+    "user_management": "xpath=//*[@id=\"navBar\"]/li[6]/dl/dd[1]/a/cite",
+    "query": "xpath=/html/body/form/blockquote/div[1]/div/input",
+    "click_search": "xpath=/html/body/form/blockquote/div[1]/a"
+  }
+]

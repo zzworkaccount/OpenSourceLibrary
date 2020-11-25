@@ -1,0 +1,8 @@
+[
+  {
+    "username": "id=username",
+    "password": "id=password",
+    "verifycode": "id=captcha",
+    "login_button": "xpath=/html/body/div/form/div[5]/button"
+  }
+]
