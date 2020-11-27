@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>计算器版本2</title>
+			<!--控制计算机数字输入的长度-->
+		
+		<style>
+			#top{
+				width: 420px;/*div的宽度*/
+				height:50px;/*div的高度*/
+				background-color: gainsboro;/*div容器的背景颜色*/
+				/*border:solid 2px red; /这是边框格式*/
+				line-height:50px;/*让div容器里面的内容水平居中*/
+				border-top-left-radius: calc(8px);/*设置div容器的左上角圆角弧度*/
+				border-top-right-radius: calc(8px);/*设置div容器右上角圆角的弧度*/
+				margin: 0px auto;/*让div容器对于整个页面自适应居中*/
+				/*text-align: center;这个是内容居中的格式*/
+			}
+			
+			#input-box{
+				width:420px;
+				height:50px;
+				/*border: solid 2px red;*/
+				
+				background-color:aliceblue;
+				margin: 0px auto;/*让div容器对于整个页面自适应居中*/
+				text-align: right;/*div容器内容水平居中*/
+				
+				
+			}
+			
+			#button{
+				width:416px;
+				height:520px;
+				/*border:solid 2px red;*/
+				margin: 0px auto;/*自适应居中*/
+				
+				
+			}
+			
+			/*这是默认状态，如果想要添加悬浮状态，就要重新写一个方法*/
+			.content{
+				width:100px;
+				height:100px;
+				border:solid 2px #DCDCDC;
+				float: left;
+				text-align: center;
+				 line-height:100px;
+				 
+				 
+			}
+			/*悬浮状态的格式*/
+			.content:hover{
+				background-color:paleturquoise;
+			}
+			
+			/*触发状态的格式*/
+			.content:active{
+				background:aqua;
+			}
+			
+			/*完成状态的格式*/
+			.content:visited{
+				background:red;
+			}
+		</style>
+	</head>
+	<body>
+		<!--
+			用div模型创建三个大的div容器，从上而下第一个div容器创建格式：
+		-->
+		
+			<div id = "top" >
+				<font color="red"  size="7"/>●
+				<font color="cyan"  size="7"/>●
+				<font color="darkorange"  size="7"/>●
+			</div>
+			
+			<!--
+				第二个div容器，显示用户输入的数组界面
+			-->
+			<div id = "input-box">
+				
+			</div>
+			
+			<div id = "button">
+				<font size="6" />
+				<div class="content" onclick = "ac()">AC</div>
+				<div class="content">+/-</div>
+				<div class="content" onclick = "sign('%')">%</div>
+				<div class="content" onclick = "sign('/')">÷</div>
+				<div class="content" onclick = "input(7)">7</div>
+				<div class="content" onclick = "input(8)">8</div>
+				<div class="content" onclick = "input(9)">9</div>
+				<div class="content" onclick = "sign('*')">×</div>
+				<div class="content" onclick = "input(4)">4</div>
+				<div class="content" onclick = "input(5)">5</div>
+				<div class="content" onclick = "input(6)">6</div>
+				<div class="content" onclick = "sign('-')">-</div>
+				<div class="content" onclick = "input(1)">1</div>
+				<div class="content" onclick = "input(2)">2</div>
+				<div class="content" onclick = "input(3)">3</div>
+				<div class="content" onclick = "sign('+')">+</div>
+				<div class="content" onclick = "revocation()">←</div>
+				<div class="content" onclick = "input(0)">0</div>
+				<div class="content" onclick = "dot('.')">.</div>
+				<div class="content" onclick = "calc()">=</div>
+			</div>
+		
+	</body>
+		
+	<script>
+		
+		//定义一个开关，用来判断用户是否点击了 =；
+		var isEqualClicked = false;
+		
+		//定义一个开关，来判断用户是否连续输入了小数点“。”符号
+		var isPointClicked = false;				//默认为未输入 .小数点的情况
+		
+		
+		//定义一个开关，用来判断用户是否连续输入了运算符。
+		var isOperatorClicked = false;			//也默认为未连续输入运算符的情况。
+		
+		//输入0-9的数字到input-box元素上
+		function input(number){
+			//给innerHTML赋值
+			/*document.getElementById("input-box").innerHTML += number;*/
+			var express = document.getElementById("input-box").innerHTML;
+			
+			//如果用户点击等号，在要做运算的时候，则先清空AC
+			if(isEqualClicked == true){
+				ac();
+			}
+			
+			if(express.length <= 22){
+				/*window.alert("超出长度");*/
+				document.getElementById("input-box").innerHTML += number;
+				isEqualClicked = false;  //当用户点击了加号，在输入数字的把AC的开关，关掉。
+				isPointClicked = false;  //这里把小数点的开关，关掉是因为当第一次运算完成的时候，
+										 //在直接输入数字进行下一次运算时，数字会重新覆盖，但是小数点的开关没有被关掉，
+										 //所以在进行第一次运算后，再在第一运算的基础上做第二次运算时，小数点就不能被点击了
+										 //如果想要在第二次运算的时候使得小数点在次被调用，就需要在第二次输入数字的时候把小数点的开关，关上
+				isOperatorClicked = false;//同小数点；
+			}
+		}
+		
+		//输入运算符到input-box元素上
+		function sign(symbol){
+			//给innerHTML赋值
+			/*document.getElementById("input-box").innerHTML += symbol;*/
+			var express = document.getElementById("input-box").innerHTML;
+			if(isOperatorClicked == false){
+				document.getElementById("input-box").innerHTML += symbol;
+				isPointClicked = false;
+				isOperatorClicked = true;
+			}
+		}
+		
+		//小数点，有且只能有一个，不然会报错
+		function dot(){ 
+			/*document.getElementById("input-box").innerHTML += ".";*/
+			var express = document.getElementById("input-box").innerHTML;
+			if(isPointClicked == false){
+				document.getElementById("input-box").innerHTML += ".";
+				isPointClicked = true;
+			}
+		}
+		
+		//回退，删除最后一个元素
+		function revocation(){
+			var display = document.getElementById("input-box").innerHTML;
+			var str = "";
+			for(var i = 0; i < display.length-1; i++){
+				/*str = str + display.charAt();*/
+				str += display.charAt(i);
+				document.getElementById("input-box").innerHTML = str;
+			}
+			
+		}
+		
+		//清空元素
+		function ac(){
+			document.getElementById("input-box").innerHTML = "";
+		}
+		
+		
+		//点击=号做运算，并显示结果-调用HTML底层运算公式。
+		function calc(){
+			//调用innerHTML，把innerHTML赋值给一个变量
+			var results = document.getElementById("input-box").innerHTML;
+			/*window.alert(results);*/				//在页面弹出一个对话框提示输出内容
+			var show = eval(results);
+			/*window.alert(show);*/
+			document.getElementById("input-box").innerHTML = show;
+			
+			//用户一但点击了等号，就把结果改为true；(已经被点击过)
+			isEqualClicked = true;
+			
+
+			
+		}
+	</script>
+</html>
